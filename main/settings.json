@@ -1,0 +1,21 @@
+{
+    "smtp": {
+      "host": "takasaki-shakyo.or.jp",
+      "port": 587,
+      "secure": true,
+      "user": "gunma@takasaki-shakyo.or.jp",
+      "pass": "TAKASAKI-shakyo102021"
+    },
+    "email": {
+      "from": "TRAP HUB <jamesdana222@gmail.com>",
+      "subject": "TESTING THIS SENDER",
+      "body_template": "path/to/email_template.html"
+    },
+    "attachments": {
+      "pdf": "path/to/pdf.pdf",
+      "image": "path/to/image.png",
+      "qrcode_content": "This will be encoded in a QR code",
+      "eml": "path/to/eml.eml"
+    }
+  }
+  
